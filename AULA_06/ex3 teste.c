@@ -1,0 +1,13 @@
+#include <stdio.h>
+
+int main() {
+	int matriz[3] [3];
+
+	for(int l = 0; l<3; l++) {
+		for(int c = 0; c < 3; c++) {
+			printf("Digite o valor de Linha %i: \n Coluna %i: ", l+1,c+1);
+			scanf("%i", &matriz[l][c]);
+		}
+	}
+	        	printf("| %i | %i | %i| ",matriz[0][0],matriz[1][1],matriz[2][2]);
+}
